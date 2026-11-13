@@ -274,7 +274,6 @@ subscription-userinfo: upload=999; download=999; total=999; expired=946663200
 ```
 
 **tariff_id** - your unique tariff ID.
-
 **subscription-userinfo** - upload, download, total - bytes, expired - timestamp.
 
 ### Delete subscription API
