@@ -44,7 +44,6 @@ Accepted just JSON format subscriptions.
 </div>
 
 ## Providers API
-
 To connect to the project, a provider must contact the project support and implement certain API routes.
 
 ### Response provider headers
@@ -54,7 +53,7 @@ Accept: application/json
 ```
 
 ### Response provider body
-```
+```json
 {
   "success": [boolean|required],
   "msg": [string|nullable],
@@ -63,16 +62,14 @@ Accept: application/json
 ```
 
 **success** - flag indicating whether the request succeeded or failed.
-
 **msg** - message that should be shown to the user after the request is executed.
-
 **data** - payload data.
 
-### Add provider API
+### Add provider
 The route must implement the standard registration on your website (bot), create a user account, optionally create a trial key, and perform any additional actions specific to the particular provider.
 
 **Response body**
-```
+```json
 {
   "success": [boolean],
   "msg": [string|nullable],
@@ -81,7 +78,7 @@ The route must implement the standard registration on your website (bot), create
 ```
 
 **Example**
-```
+```json
 {
   "success": true,
   "msg": "My VPN added",
@@ -89,11 +86,108 @@ The route must implement the standard registration on your website (bot), create
 }
 ```
 
+### Get provider
+The route must return the provider's current tariffs. xbit calls it when loading the user's providers. 
+
+**Response body**
+```json
+{
+  "success": [boolean],
+  "msg": [string|nullable],
+  "data": {
+    "tariffs": {
+      "month": [
+        {
+          "tariff_id": [string|required],
+          "tariff_type": "month",
+          "header": [string|nullable],
+          "description": [string|nullable],
+          "tariff": [
+            {
+              "hwid_device_limit": [integer|required],
+              "month": [integer|required],
+              "traffic_gb": [integer|nullable],
+              "price": [integer|required]
+            }
+          ]
+        }
+      ],
+      "traffic": [
+        {
+          "tariff_id": [string|required],
+          "tariff_type": "traffic",
+          "header": [string|nullable],
+          "description": [string|nullable],
+          "tariff": [
+            {
+              "traffic_gb": [integer|required],
+              "price": [integer|required]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+```
+
+**Example**
+```json
+{
+  "success": true,
+  "msg": "",
+  "data": {
+    "tariffs": {
+      "month": [
+        {
+          "tariff_id": "for_1_device",
+          "tariff_type": "month",
+          "header": "1 device",
+          "description": null,
+          "tariff": [
+            {
+              "hwid_device_limit": 1,
+              "month": 1,
+              "traffic_gb": null,
+              "price": 200
+            },
+            {
+              "hwid_device_limit": 1,
+              "month": 12,
+              "traffic_gb": null,
+              "price": 1680
+            }
+          ]
+        }
+      ],
+      "traffic": [
+        {
+          "tariff_id": "extra_traffic",
+          "tariff_type": "traffic",
+          "header": "Traffic",
+          "description": null,
+          "tariff": [
+            {
+              "traffic_gb": 10,
+              "price": 50
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+```
+
+**month** - a time-based subscription. 
+**traffic** - extra traffic. 
+**tariff_id** - the same value returned by *Get subscriptions* for that subscription.
+
 ### Delete provider API
 The route must implement the deletion of a user from the provider.
 
 **Response body**
-```
+```json
 {
   "success": [boolean],
   "msg": [string|nullable],
@@ -102,7 +196,7 @@ The route must implement the deletion of a user from the provider.
 ```
 
 **Example**
-```
+```json
 {
   "success": true,
   "msg": "My VPN deleted",
@@ -114,7 +208,7 @@ The route must implement the deletion of a user from the provider.
 The route must return the list of the user's subscriptions.
 
 **Response body**
-```
+```json
 {
   "success": [boolean],
   "msg": [string],
@@ -144,7 +238,7 @@ The route must return the list of the user's subscriptions.
 ```
 
 **Example**
-```
+```json
 {
   "success": true,
   "msg": "",
@@ -187,7 +281,7 @@ subscription-userinfo: upload=999; download=999; total=999; expired=946663200
 The route must implement the deletion of each individual subscription.
 
 **Response body**
-```
+```json
 {
   "success": [boolean],
   "msg": [string],
@@ -196,7 +290,7 @@ The route must implement the deletion of each individual subscription.
 ```
 
 **Example**
-```
+```json
 {
   "success": true,
   "msg": "Subscription deleted",
@@ -208,7 +302,7 @@ The route must implement the deletion of each individual subscription.
 The route must return the list of devices on which the subscription is installed. Analogous to **Get subscriptions**.
 
 **Response body**
-```
+```json
 {
   "success": [boolean],
   "msg": [string],
@@ -230,7 +324,7 @@ The route must return the list of devices on which the subscription is installed
 ```
 
 **Example**
-```
+```json
 {
   "success": true,
   "msg": "",
@@ -255,7 +349,7 @@ The route must return the list of devices on which the subscription is installed
 The route must delete a specific user device from the subscription.
 
 **Response body**
-```
+```json
 {
   "success": [boolean],
   "msg": [string|nullable],
@@ -266,7 +360,7 @@ The route must delete a specific user device from the subscription.
 ```
 
 **Example**
-```
+```json
 {
   "success": true,
   "msg": "Device deleted",
@@ -280,7 +374,7 @@ The route must delete a specific user device from the subscription.
 The route must implement the purchase of a new subscription and return a link to the invoice page.
 
 **Response body**
-```
+```json
 {
   "success": [boolean],
   "msg": [string|nullable],
@@ -291,7 +385,7 @@ The route must implement the purchase of a new subscription and return a link to
 ```
 
 **Example**
-```
+```json
 {
   "success": true,
   "msg": "",
@@ -305,7 +399,7 @@ The route must implement the purchase of a new subscription and return a link to
 The route must implement the extension of a subscription and return a link to the invoice page.
 
 **Response body**
-```
+```json
 {
   "success": [boolean],
   "msg": [string|nullable],
@@ -316,7 +410,7 @@ The route must implement the extension of a subscription and return a link to th
 ```
 
 **Example**
-```
+```json
 {
   "success": true,
   "msg": "",
@@ -330,7 +424,7 @@ The route must implement the extension of a subscription and return a link to th
 The route must implement the purchase of traffic and return a link to the invoice page.
 
 **Response body**
-```
+```json
 {
   "success": [boolean],
   "msg": [string|nullable],
@@ -341,7 +435,7 @@ The route must implement the purchase of traffic and return a link to the invoic
 ```
 
 **Example**
-```
+```json
 {
   "success": true,
   "msg": "",
