@@ -110,7 +110,8 @@ The route must return the provider's current tariffs. xbit calls it when loading
               "price": [integer|required]
             }
           ]
-        }
+        },
+        ...
       ],
       "traffic": [
         {
@@ -124,7 +125,8 @@ The route must return the provider's current tariffs. xbit calls it when loading
               "price": [integer|required]
             }
           ]
-        }
+        },
+        ...
       ]
     }
   }
