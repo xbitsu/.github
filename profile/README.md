@@ -51,7 +51,7 @@ Accepted just JSON format subscriptions.
 </div>
 
 ## Providers API
-To connect to the project, a provider must contact the project support and implement certain API routes.
+A provider connects to the project by implementing the required API routes and registering its details on xbit.su.
 
 ### Response provider headers
 ```
