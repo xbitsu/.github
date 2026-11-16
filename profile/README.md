@@ -471,7 +471,7 @@ xbit://import?link=<subsciption_url>
         <tr>
             <td>Telegram (RU/EN)</td>
             <td>
-                <a href="https://telegram.me/xbitsu_support"><img src="https://img.shields.io/badge/-support-blue?style=flat&logo=Telegram&logoColor=white" alt="Support (RU/EN)"></a>
+                <a href="https://telegram.me/xbitsu_support"><img src="https://img.shields.io/badge/-support-blue?style=flat&logo=Telegram&logoColor=white" alt="Support (EN/RU)"></a>
             </td>
         </tr>
     </tbody>
