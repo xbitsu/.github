@@ -35,8 +35,8 @@ Accepted just JSON format subscriptions.
         <tr>
           <td>Windows (<a href="https://github.com/xbitsu/windows/releases">Releases</a>)</td>
           <td>
-              <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-amd64-installer.zip"><img src="https://img.shields.io/badge/EXE%20amd64-Stable-044d29.svg?logo=windows" alt="amd64"></a>
-              <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-arm64-installer.zip"><img src="https://img.shields.io/badge/EXE%20arm64-Stable-044d29.svg?logo=windows" alt="arm64"></a>
+              <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-amd64-installer.zip"><img src="https://img.shields.io/badge/EXE%20amd64-Stable-044d29.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzem0wIDEzaDExdjExSDEzek0wIDEzaDExdjExSDB6Ii8+PC9zdmc+" alt="amd64"></a>
+              <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-arm64-installer.zip"><img src="https://img.shields.io/badge/EXE%20arm64-Stable-044d29.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzem0wIDEzaDExdjExSDEzek0wIDEzaDExdjExSDB6Ii8+PC9zdmc+" alt="arm64"></a>
           </td>
       </tr>
         <tr>
