@@ -40,11 +40,12 @@ Accepted just JSON format subscriptions.
             </td>
         </tr>
         <tr>
-            <td>macOS (<a href="https://github.com/xbitsu/macos/releases">Releases</a>)</td>
-            <td>
-                <a href="https://github.com/xbitsu/macos/releases/latest/download/xbit-arm64.dmg"><img src="https://img.shields.io/badge/DMG-Stable-044d29.svg?logo=macos" alt="dmg"></a>
-            </td>
-        </tr>
+          <td>macOS (<a href="https://github.com/xbitsu/macos/releases">Releases</a>)</td>
+          <td>
+              <a href="https://github.com/xbitsu/macos/releases/latest/download/xbit-arm64.dmg"><img src="https://img.shields.io/badge/DMG%20arm64-Stable-044d29.svg?logo=macos" alt="dmg arm64"></a>
+              <a href="https://github.com/xbitsu/macos/releases/latest/download/xbit-amd64.dmg"><img src="https://img.shields.io/badge/DMG%20amd64-Stable-044d29.svg?logo=macos" alt="dmg amd64"></a>
+          </td>
+      </tr>
     </tbody>
 </table>
 </div>
