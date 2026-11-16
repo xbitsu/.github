@@ -33,12 +33,12 @@ Accepted just JSON format subscriptions.
             </td>
         </tr>
         <tr>
-            <td>Windows (<a href="https://github.com/xbitsu/windows/releases">Releases</a>)</td>
-            <td>
-                <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-amd64-installer.zip"><img src="https://img.shields.io/badge/Setup-amd64-2d7d9a.svg?logo=windows" alt="amd64"></a>
-                <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-arm64-installer.zip"><img src="https://img.shields.io/badge/Setup-arm64-2d7d9a.svg?logo=windows" alt="arm64"></a>
-            </td>
-        </tr>
+          <td>Windows (<a href="https://github.com/xbitsu/windows/releases">Releases</a>)</td>
+          <td>
+              <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-amd64-installer.zip"><img src="https://img.shields.io/badge/EXE%20amd64-Stable-2d7d9a.svg?logo=windows" alt="amd64"></a>
+              <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-arm64-installer.zip"><img src="https://img.shields.io/badge/EXE%20arm64-Stable-2d7d9a.svg?logo=windows" alt="arm64"></a>
+          </td>
+      </tr>
         <tr>
           <td>macOS (<a href="https://github.com/xbitsu/macos/releases">Releases</a>)</td>
           <td>
