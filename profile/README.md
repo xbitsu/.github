@@ -110,8 +110,7 @@ The route must return the provider's current tariffs. xbit calls it when loading
               "price": [integer|required]
             }
           ]
-        },
-        ...
+        }
       ],
       "traffic": [
         {
@@ -125,8 +124,7 @@ The route must return the provider's current tariffs. xbit calls it when loading
               "price": [integer|required]
             }
           ]
-        },
-        ...
+        }
       ]
     }
   }
@@ -230,11 +228,9 @@ The route must return the list of the user's subscriptions.
             "created_at": [string|nullable],
             "updated_at": [string|nullable]
           ]
-        },
-        ...
+        }
       ]
-    },
-    ...
+    }
   ]
 }
 ```
@@ -260,11 +256,9 @@ The route must return the list of the user's subscriptions.
             "created_at": "2026-06-19 14:09:12",
             "updated_at": "2026-06-20 08:19:28"
           ]
-        },
-        ...
+        }
       ]
-    },
-    ...
+    }
   ]
 }
 ```
@@ -318,8 +312,7 @@ The route must return the list of devices on which the subscription is installed
         "created_at": [string|nullable],
         "updated_at": [string|nullable]
       ]
-    },
-    ...
+    }
   ]
 }
 ```
@@ -340,8 +333,7 @@ The route must return the list of devices on which the subscription is installed
           "created_at": "2026-06-19 14:09:12",
           "updated_at": "2026-06-20 08:19:28"
         ]
-      },
-      ...
+      }
   ]
 }
 ```
