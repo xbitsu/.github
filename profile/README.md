@@ -27,7 +27,9 @@ Accepted just JSON format subscriptions.
             </td>
         </tr>
         <tr>
-            <td>Android TV<br/><a href="https://github.com/xbitsu/android/releases">Releases</a></td>
+            <td width="220" nowrap>
+              Android TV<br/><a href="https://github.com/xbitsu/android/releases">Releases</a>
+          </td>
             <td>
                 <a href="https://github.com/xbitsu/android/releases/latest/download/xbit.apk"><img src="https://img.shields.io/badge/APK-Stable-044d29.svg?logo=android" alt="apk"></a>
             </td>
