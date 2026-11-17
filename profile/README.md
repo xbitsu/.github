@@ -46,6 +46,17 @@ Accepted just JSON format subscriptions.
               <a href="https://github.com/xbitsu/macos/releases/latest/download/xbit-amd64.dmg"><img src="https://img.shields.io/badge/DMG%20amd64-Stable-044d29.svg?logo=macos" alt="dmg amd64"></a>
           </td>
       </tr>
+        <tr>
+        <td>Linux (<a href="https://github.com/xbitsu/linux/releases">Releases</a>)</td>
+        <td>
+            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-amd64.deb"><img src="https://img.shields.io/badge/DEB%20amd64-Stable-044d29.svg?logo=linux" alt="deb amd64"></a>
+            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-arm64.deb"><img src="https://img.shields.io/badge/DEB%20arm64-Stable-044d29.svg?logo=linux" alt="deb arm64"></a>
+            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-amd64.rpm"><img src="https://img.shields.io/badge/RPM%20amd64-Stable-044d29.svg?logo=linux" alt="rpm amd64"></a>
+            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-arm64.rpm"><img src="https://img.shields.io/badge/RPM%20arm64-Stable-044d29.svg?logo=linux" alt="rpm arm64"></a>
+            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-amd64.pkg.tar.zst"><img src="https://img.shields.io/badge/ARCH%20amd64-Stable-044d29.svg?logo=linux" alt="arch amd64"></a>
+            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-arm64.pkg.tar.zst"><img src="https://img.shields.io/badge/ARCH%20arm64-Stable-044d29.svg?logo=linux" alt="arch arm64"></a>
+        </td>
+    </tr>
     </tbody>
 </table>
 </div>
