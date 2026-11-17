@@ -21,33 +21,33 @@ Accepted just JSON format subscriptions.
     </thead>
     <tbody align="left">
         <tr>
-            <td>Android (<a href="https://github.com/xbitsu/android/releases">Releases</a>)</td>
+            <td>Android<br/><a href="https://github.com/xbitsu/android/releases">Releases</a></td>
             <td>
                 <a href="https://github.com/xbitsu/android/releases/latest/download/xbit.apk"><img src="https://img.shields.io/badge/APK-Stable-044d29.svg?logo=android" alt="apk"></a>
             </td>
         </tr>
         <tr>
-            <td>Android TV (<a href="https://github.com/xbitsu/android/releases">Releases</a>)</td>
+            <td>Android TV<br/><a href="https://github.com/xbitsu/android/releases">Releases</a></td>
             <td>
                 <a href="https://github.com/xbitsu/android/releases/latest/download/xbit.apk"><img src="https://img.shields.io/badge/APK-Stable-044d29.svg?logo=android" alt="apk"></a>
             </td>
         </tr>
         <tr>
-          <td>Windows (<a href="https://github.com/xbitsu/windows/releases">Releases</a>)</td>
+          <td>Windows<br/><a href="https://github.com/xbitsu/windows/releases">Releases</a></td>
           <td>
               <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-amd64-installer.zip"><img src="https://img.shields.io/badge/EXE%20amd64-Stable-044d29.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzem0wIDEzaDExdjExSDEzek0wIDEzaDExdjExSDB6Ii8+PC9zdmc+" alt="amd64"></a>
               <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-arm64-installer.zip"><img src="https://img.shields.io/badge/EXE%20arm64-Stable-044d29.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzem0wIDEzaDExdjExSDEzek0wIDEzaDExdjExSDB6Ii8+PC9zdmc+" alt="arm64"></a>
           </td>
       </tr>
         <tr>
-          <td>macOS (<a href="https://github.com/xbitsu/macos/releases">Releases</a>)</td>
+          <td>macOS<br/><a href="https://github.com/xbitsu/macos/releases">Releases</a></td>
           <td>
               <a href="https://github.com/xbitsu/macos/releases/latest/download/xbit-arm64.dmg"><img src="https://img.shields.io/badge/DMG%20arm64-Stable-044d29.svg?logo=macos" alt="dmg arm64"></a>
               <a href="https://github.com/xbitsu/macos/releases/latest/download/xbit-amd64.dmg"><img src="https://img.shields.io/badge/DMG%20amd64-Stable-044d29.svg?logo=macos" alt="dmg amd64"></a>
           </td>
       </tr>
         <tr>
-        <td>Linux (<a href="https://github.com/xbitsu/linux/releases">Releases</a>)</td>
+        <td>Linux<br/><a href="https://github.com/xbitsu/linux/releases">Releases</a></td>
         <td>
             <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-amd64.deb"><img src="https://img.shields.io/badge/DEB%20amd64-Stable-044d29.svg?logo=linux" alt="deb amd64"></a>
             <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-arm64.deb"><img src="https://img.shields.io/badge/DEB%20arm64-Stable-044d29.svg?logo=linux" alt="deb arm64"></a>
