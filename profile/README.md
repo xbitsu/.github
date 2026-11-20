@@ -470,6 +470,8 @@ Add subscription without shop to user.
 xbit://import?link=<subsciption_url>
 ```
 
+The `add` may also contain a `link` GET parameter as a fallback method for importing key.
+
 ## Contact us
 
 <div align="left">
