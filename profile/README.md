@@ -5,7 +5,7 @@
 
 Application introduces a fundamentally new approach to VPN connectivity. The xbit client enables VPN providers to deliver a complete end-to-end user experience, from a unified account across all devices with seamless synchronization to VPN connection, and also connected devices control; providers store; posts and notifications; payment processing.
 
-We are committed to continuously improving and expanding the app. If you have any questions, suggestions, or feedback, feel free to contact us in our Telegram chat.
+We are committed to continuously improving and expanding the app. If you have any questions, suggestions, or feedback, feel free to contact us in our <a href="https://telegram.me/xbitsu_support"><img src="https://img.shields.io/badge/-support-blue?style=flat&logo=Telegram&logoColor=white" alt="Telegram (EN/RU)"></a>.
 
 ## Binaries
 
