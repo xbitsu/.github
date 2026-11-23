@@ -7,8 +7,6 @@ Application introduces a fundamentally new approach to VPN connectivity. The xbi
 
 We are committed to continuously improving and expanding the app. If you have any questions, suggestions, or feedback, feel free to contact us in our Telegram chat.
 
-Accepted just JSON format subscriptions.
-
 ## Binaries
 
 <table style="width: 100%; border-collapse: collapse; text-align: left;">
