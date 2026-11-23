@@ -62,7 +62,7 @@ We are committed to continuously improving and expanding the app. If you have an
 </table>
 
 ## Providers API
-A provider connects to the project by implementing the required API routes and registering its details on xbit.su.
+A provider connects to the project by implementing the required API routes and registering its details on <a href="https://xbit.su">xbit.su</a>.
 
 ### Response provider headers
 ```
