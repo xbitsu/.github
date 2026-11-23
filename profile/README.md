@@ -3,7 +3,7 @@
   xbit
 </h1>
 
-Application introduces a fundamentally new approach to VPN connectivity. The xbit client enables VPN providers to deliver a complete end-to-end user experience, from a unified account across all devices with seamless synchronization to VPN connection and payment processing.
+Application introduces a fundamentally new approach to VPN connectivity. The xbit client enables VPN providers to deliver a complete end-to-end user experience, from a unified account across all devices with seamless synchronization to VPN connection, and also connected devices control; providers store; posts and notifications; payment processing.
 
 We are committed to continuously improving and expanding the app. If you have any questions, suggestions, or feedback, feel free to contact us in our Telegram chat.
 
@@ -11,57 +11,57 @@ Accepted just JSON format subscriptions.
 
 ## Binaries
 
-<div align="left">
-<table>
-    <thead align="left">
+<table style="width: 100%; border-collapse: collapse; text-align: left;">
+    <thead>
         <tr>
-            <th>OS</th>
-            <th>Download</th>
+            <th style="width: 180px; text-align: left;">OS</th>
+            <th style="text-align: left;">Download</th>
         </tr>
     </thead>
-    <tbody align="left">
+    <tbody>
         <tr>
-            <td>Android<br/><a href="https://github.com/xbitsu/android/releases">Releases</a></td>
+            <td>Android<br><a href="https://github.com/xbitsu/android/releases">Releases</a></td>
             <td>
-                <a href="https://github.com/xbitsu/android/releases/latest/download/xbit.apk"><img src="https://img.shields.io/badge/APK-Stable-044d29.svg?logo=android" alt="apk"></a>
+                <a href="https://github.com/xbitsu/android/releases/latest/download/xbit.apk"><img src="https://img.shields.io/badge/APK-Stable-044d29.svg?logo=android" alt="APK"></a>
             </td>
         </tr>
         <tr>
-            <td width="220" nowrap>
-              Android TV<br/><a href="https://github.com/xbitsu/android/releases">Releases</a>
-          </td>
+            <td>Android TV<br><a href="https://github.com/xbitsu/android/releases">Releases</a></td>
             <td>
-                <a href="https://github.com/xbitsu/android/releases/latest/download/xbit.apk"><img src="https://img.shields.io/badge/APK-Stable-044d29.svg?logo=android" alt="apk"></a>
+                <a href="https://github.com/xbitsu/android/releases/latest/download/xbit.apk"><img src="https://img.shields.io/badge/APK-Stable-044d29.svg?logo=android" alt="APK"></a>
             </td>
         </tr>
         <tr>
-          <td>Windows<br/><a href="https://github.com/xbitsu/windows/releases">Releases</a></td>
-          <td>
-              <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-amd64-installer.zip"><img src="https://img.shields.io/badge/EXE%20amd64-Stable-044d29.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzem0wIDEzaDExdjExSDEzek0wIDEzaDExdjExSDB6Ii8+PC9zdmc+" alt="amd64"></a>
-              <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-arm64-installer.zip"><img src="https://img.shields.io/badge/EXE%20arm64-Stable-044d29.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzem0wIDEzaDExdjExSDEzek0wIDEzaDExdjExSDB6Ii8+PC9zdmc+" alt="arm64"></a>
-          </td>
-      </tr>
+            <td>Windows<br><a href="https://github.com/xbitsu/windows/releases">Releases</a></td>
+            <td>
+                <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-amd64-installer.zip"><img src="https://img.shields.io/badge/EXE%20amd64-Stable-044d29.svg?logo=windows" alt="amd64"></a>
+                <a href="https://github.com/xbitsu/windows/releases/latest/download/xbit-arm64-installer.zip"><img src="https://img.shields.io/badge/EXE%20arm64-Stable-044d29.svg?logo=windows" alt="arm64"></a>
+            </td>
+        </tr>
         <tr>
-          <td>macOS<br/><a href="https://github.com/xbitsu/macos/releases">Releases</a></td>
-          <td>
-              <a href="https://github.com/xbitsu/macos/releases/latest/download/xbit-arm64.dmg"><img src="https://img.shields.io/badge/DMG%20arm64-Stable-044d29.svg?logo=macos" alt="dmg arm64"></a>
-              <a href="https://github.com/xbitsu/macos/releases/latest/download/xbit-amd64.dmg"><img src="https://img.shields.io/badge/DMG%20amd64-Stable-044d29.svg?logo=macos" alt="dmg amd64"></a>
-          </td>
-      </tr>
+            <td>macOS<br><a href="https://github.com/xbitsu/macos/releases">Releases</a></td>
+            <td>
+                <a href="https://github.com/xbitsu/macos/releases/latest/download/xbit-arm64.dmg"><img src="https://img.shields.io/badge/DMG%20arm64-Stable-044d29.svg?logo=macos" alt="arm64"></a>
+                <a href="https://github.com/xbitsu/macos/releases/latest/download/xbit-amd64.dmg"><img src="https://img.shields.io/badge/DMG%20amd64-Stable-044d29.svg?logo=macos" alt="amd64"></a>
+            </td>
+        </tr>
         <tr>
-        <td>Linux<br/><a href="https://github.com/xbitsu/linux/releases">Releases</a></td>
-        <td>
-            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-amd64.deb"><img src="https://img.shields.io/badge/DEB%20amd64-Stable-044d29.svg?logo=linux" alt="deb amd64"></a>
-            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-arm64.deb"><img src="https://img.shields.io/badge/DEB%20arm64-Stable-044d29.svg?logo=linux" alt="deb arm64"></a>
-            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-amd64.rpm"><img src="https://img.shields.io/badge/RPM%20amd64-Stable-044d29.svg?logo=linux" alt="rpm amd64"></a>
-            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-arm64.rpm"><img src="https://img.shields.io/badge/RPM%20arm64-Stable-044d29.svg?logo=linux" alt="rpm arm64"></a>
-            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-amd64.pkg.tar.zst"><img src="https://img.shields.io/badge/ARCH%20amd64-Stable-044d29.svg?logo=linux" alt="arch amd64"></a>
-            <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-arm64.pkg.tar.zst"><img src="https://img.shields.io/badge/ARCH%20arm64-Stable-044d29.svg?logo=linux" alt="arch arm64"></a>
-        </td>
-    </tr>
+            <td>Linux<br><a href="https://github.com/xbitsu/linux/releases">Releases</a></td>
+            <td>
+                <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-amd64.deb"><img src="https://img.shields.io/badge/DEB%20amd64-Stable-044d29.svg?logo=linux" alt="deb amd64"></a>
+                <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-arm64.deb"><img src="https://img.shields.io/badge/DEB%20arm64-Stable-044d29.svg?logo=linux" alt="deb arm64"></a>
+                <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-amd64.rpm"><img src="https://img.shields.io/badge/RPM%20amd64-Stable-044d29.svg?logo=linux" alt="rpm amd64"></a>
+                <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-arm64.rpm"><img src="https://img.shields.io/badge/RPM%20arm64-Stable-044d29.svg?logo=linux" alt="rpm arm64"></a>
+                <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-amd64.pkg.tar.zst"><img src="https://img.shields.io/badge/ARCH%20amd64-Stable-044d29.svg?logo=linux" alt="arch amd64"></a>
+                <a href="https://github.com/xbitsu/linux/releases/latest/download/xbit-arm64.pkg.tar.zst"><img src="https://img.shields.io/badge/ARCH%20arm64-Stable-044d29.svg?logo=linux" alt="arch arm64"></a>
+            </td>
+        </tr>
+        <tr>
+            <td>iOS</td>
+            <td>Soon</td>
+        </tr>
     </tbody>
 </table>
-</div>
 
 ## Providers API
 A provider connects to the project by implementing the required API routes and registering its details on xbit.su.
