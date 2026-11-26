@@ -5,6 +5,8 @@
 
 Application introduces a fundamentally new approach to VPN connectivity. The xbit client enables VPN providers to deliver a complete end-to-end user experience, from a unified account across all devices with seamless synchronization to VPN connection, and also connected devices control; providers store; posts and notifications; payment processing.
 
+You can use xbit as a provider with a fully implemented API, or for a regular key import without the API.
+
 We are committed to continuously improving and expanding the app. If you have any questions, suggestions, or feedback, feel free to contact us in our <a href="https://telegram.me/xbitsu_support">Telegram (EN/RU)</a>.
 
 ## Binaries
