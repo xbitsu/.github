@@ -61,6 +61,10 @@ We are committed to continuously improving and expanding the app. If you have an
     </tbody>
 </table>
 
+<p align="center">
+  <img src="../assets/screen1.png" alt="xbit" width="800" />
+</p>
+
 ## Providers API
 A provider connects to the project by implementing the required API routes and registering its details on <a href="https://xbit.su">xbit.su</a>.
 
