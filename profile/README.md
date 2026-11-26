@@ -62,7 +62,7 @@ We are committed to continuously improving and expanding the app. If you have an
 </table>
 
 <p align="center">
-  <img src="../assets/screen1.png" alt="xbit" width="800" />
+  <img src="../assets/screen1.png" alt="xbit" width="100%"/>
 </p>
 
 ## Providers API
